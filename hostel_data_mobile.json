@@ -1,0 +1,125 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "admin_id": "HOSTEL2024"
+  },
+  "members": [
+    {
+      "username": "shakeel",
+      "name": "shakeel",
+      "password": "a719c2c2c6b8657e367b3dce7339c264d11ad573c6cb2a1f2b1a1f0b094725f5"
+    },
+    {
+      "username": "khan",
+      "name": "ali",
+      "password": "d5083e34522626dd10e151c78c1ba502a3d67427b752c3fd43bd3b944072d1e7"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "shakeel",
+      "cnic": "000000",
+      "contact": "020101",
+      "dept": "cs",
+      "semester": "1st",
+      "room_no": null
+    },
+    {
+      "id": 2,
+      "name": "uzair",
+      "cnic": "************",
+      "contact": "***********",
+      "dept": "Bba",
+      "semester": "1st",
+      "room_no": null
+    },
+    {
+      "id": 3,
+      "name": "ahsan",
+      "cnic": "*******",
+      "contact": "00000",
+      "dept": "****",
+      "semester": "1st",
+      "room_no": null
+    }
+  ],
+  "rooms": [
+    {
+      "room_no": "1",
+      "capacity": 4,
+      "occupants": []
+    }
+  ],
+  "mess": [],
+  "mess_menu": [
+    {
+      "id": 1,
+      "name": "burger",
+      "price": 500.0,
+      "date": "2026-06-22",
+      "image": null
+    },
+    {
+      "id": 2,
+      "name": "chicken",
+      "price": 1000.0,
+      "date": "2026-06-22",
+      "image": null
+    }
+  ],
+  "bills": [
+    {
+      "id": 1,
+      "student_id": 1,
+      "month": "22",
+      "room_charges": 5000.0,
+      "mess_charges": 100.0,
+      "other_charges": 100.0,
+      "other_activity": 0.0,
+      "other_activity_desc": "",
+      "total": 5200.0,
+      "paid": true,
+      "receipt": null
+    },
+    {
+      "id": 2,
+      "student_id": 2,
+      "month": "22/6/2026",
+      "room_charges": 5000.0,
+      "mess_charges": 1000.0,
+      "other_charges": 1000.0,
+      "other_activity": 1000.0,
+      "other_activity_desc": "no",
+      "total": 8000.0,
+      "paid": true,
+      "receipt": null
+    }
+  ],
+  "complaints": [
+    {
+      "id": 1,
+      "student_id": 2,
+      "text": "no light",
+      "date": "2026-06-22 15:48",
+      "status": "Resolved",
+      "solution": "okay"
+    },
+    {
+      "id": 2,
+      "student_id": 1,
+      "text": "no light wifi",
+      "date": "2026-06-22 15:48",
+      "status": "Pending",
+      "solution": ""
+    }
+  ],
+  "next_ids": {
+    "student": 4,
+    "mess": 1,
+    "bill": 3,
+    "complaint": 3,
+    "menu": 3
+  }
+}
