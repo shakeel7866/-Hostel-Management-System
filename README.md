@@ -11,10 +11,20 @@ A desktop application for managing hostel students, rooms, mess charges, monthly
 ## ✨ Features
 
 - **Dashboard** — live stats: total students, total rooms, beds occupied, pending complaints, and recent complaints feed.
+- <img width="637" height="267" alt="Screenshot 2026-06-24 170556" src="https://github.com/user-attachments/assets/776ee7ef-86e6-4c43-b1f6-582094e88586" />
+
 - **Students** — add students (name, CNIC, contact, department, semester) and search/filter the list instantly.
+- <img width="533" height="280" alt="Screenshot 2026-06-24 170643" src="https://github.com/user-attachments/assets/ebf5221e-f188-4f18-a03a-8b16123cf98b" />
+
 - **Rooms** — add rooms with bed capacity, assign students to rooms, see occupancy status at a glance.
+- <img width="460" height="320" alt="Screenshot 2026-06-24 170700" src="https://github.com/user-attachments/assets/49d81212-c3a9-49dc-b2e0-034e0330d6fe" />
+
 - **Roommates** — view who shares a room, move a student to a different room, or remove them from their current room.
 - **Mess Management**
+- <img width="485" height="323" alt="Screenshot 2026-06-24 170721" src="https://github.com/user-attachments/assets/17e66868-3ee3-4365-aba5-5469179b1d60" />
+**ADMIN PANNEL**
+  <img width="429" height="278" alt="Screenshot 2026-06-24 170738" src="https://github.com/user-attachments/assets/55eefbc5-4448-46aa-8382-53aee7042caf" />
+
   - Date field auto-fills with **today's date** but is fully **editable**.
   - **Day of the week auto-updates** as the date is typed/edited.
   - Live totals for **Total Mess Charges** and **Unpaid Mess Charges**.
